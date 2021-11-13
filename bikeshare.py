@@ -1,6 +1,9 @@
 """
 This is bike share project for Programming for Data Science with Python-Udacity course
 """
+
+#import libraries needed for project
+
 import time
 import pandas as pd
 import numpy as np
