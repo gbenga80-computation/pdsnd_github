@@ -2,10 +2,10 @@
 
 ### Date created
 The project created 04/25/2021
-The repository created 11/13/2021 
+The repository created 11/13/2021
 
 ### Project Title
-Bikeshare Project
+Programming for Data Science with Python: Bikeshare Project
 
 ### Description
 Project looks at bike sharing in different cities across the US
