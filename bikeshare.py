@@ -218,7 +218,7 @@ def display_data(df):
     while user_input in ['yes','y'] and index+5 < df.shape[0]:
         print(df.iloc[index:index+5])
         index += 5
-        user_input = input('would you like to display more 5 rows of raw data? ').lower()
+        user_input = input('would you like to display 5 more rows of raw data? ').lower()
 
 
 def main():
