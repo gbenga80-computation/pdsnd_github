@@ -231,7 +231,7 @@ def main():
         display_data(df)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            print("Thank you for taking time to explore the bike sharing dataset")
+            print("Thank you for taking time to explore the bike sharing dataset. Have a great day!")
             break
 
 
