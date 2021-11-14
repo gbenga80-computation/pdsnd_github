@@ -34,6 +34,7 @@ def get_filters():
     month = input("Enter a month between January through June or enter 'ALL' to select all the months: ")
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
+    # Check to ensure entry is valid
     while month.lower() not in months:
         month = input("Entry not valid: Please enter in a month between January through June or enter ALL to select all the months: ")
 
@@ -45,6 +46,7 @@ def get_filters():
     dow = input("Enter a day of the week (i.e. Monday, Tuesday..., Sunday) or enter ALL to choose the whole week: ")
     days_of_week = ['monday', 'tuesday', 'wednesday' , 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
+    # check to ensure entry is valid
     while dow.lower() not in days_of_week:
         dow = input("Entry not valid: Please enter oa day of the week  (i.e. Monday, Tuesday..., Sunday) or enter ALL to choose the whole week:")
 
