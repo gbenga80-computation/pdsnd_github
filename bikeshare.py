@@ -31,7 +31,7 @@ def get_filters():
     city = city.lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input("Enter a month between January through June or enter ALL to select all the months: ")
+    month = input("Enter a month between January through June or enter 'ALL' to select all the months: ")
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
     while month.lower() not in months:
